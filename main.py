@@ -5,7 +5,7 @@ height = 5.9
 is_student = True
 hobbies = ["reading", "coding", "cooking"]
 
-print("Task 1: Variables & Data Types")
+
 print(f"name: {name}, type: {type(name)}")
 print(f"age: {age}, type: {type(age)}")
 print(f"height: {height}, type: {type(height)}")
@@ -13,7 +13,6 @@ print(f"is_student: {is_student}, type: {type(is_student)}")
 print(f"hobbies: {hobbies}, type: {type(hobbies)}\n")
 
 # Task 2: User Input & Conditional Statements
-print("Task 2: User Input & Conditional Statements")
 user_age = int(input("Enter your age: "))
 
 if user_age >= 18:
@@ -23,7 +22,6 @@ else:
 print()
 
 # Task 3: Loops
-print("Task 3: For loop - Numbers from 1 to 10")
 for number in range(1, 11):
     print(number)
 
@@ -36,7 +34,6 @@ while num <= 20:
 print()
 
 # Task 4: Mini Challenge
-print("Task 4: Mini Challenge - Fruits in Uppercase")
 fruits = ["apple", "banana", "mango", "grape", "orange"]
 
 for fruit in fruits:
